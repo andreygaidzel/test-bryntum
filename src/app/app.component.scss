@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.scheduler-wrapper {
+  width: calc(100vw - 700px);
+  height: calc(100vh - 264px);
+  margin: auto;
+
+  &.is-modal {
+    width: calc(80vw - 400px);
+    height: calc(80vh - 160px);
+  }
+}
+
+.wrapper {
+  padding-top: 50px;
+  background: #ddd;
+  width: 100%;
+  height: 100vh;
+}
+
